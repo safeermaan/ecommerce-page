@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>E Commerce</title>
+</head>
+<body>
+    
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div id="toggleBtn" class="toggle-icon">
+                <i class="fa-solid fa-list"></i>
+            </div>
+            <div class="logo-text">
+                <h4>Just Buy It</h4>
+            </div>
+            
+            <div class="nav-links">
+                <div class="search-box ">
+                    <i class="fa-solid fa-magnifying-glass nav-icons"></i>
+                    <input type="search" name="search" id="search" placeholder="Search">
+                </div>
+                <div class="favourite ">
+                    <i class="fa-regular fa-heart nav-icons"></i>
+                </div>
+                <div class="cart ">
+                    <i class="fa-solid fa-bag-shopping nav-icons"></i>
+                </div>
+            </div>
+        </div>
+        <div id="toggleMenu" class="toggle-menu">
+            <div class="categories-container">
+                <div class="category">
+                    <h5>Men</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            All Shoes
+                        </li>
+                        <li class="menu-list-item">
+                            Shoes $100 & Under
+                        </li>
+                        <li class="menu-list-item">
+                            Training & Gym
+                        </li>
+                        <li class="menu-list-item">
+                            Basketball
+                        </li>
+                        <li class="menu-list-item">
+                            Running
+                        </li>
+                        <li class="menu-list-item">
+                            Underwear & More 
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h5>Women</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            Lifestyle
+                        </li>
+                        <li class="menu-list-item">
+                            Bras & Leggings
+                        </li>
+                        <li class="menu-list-item">
+                            Clothing
+                        </li>
+                        <li class="menu-list-item">
+                            Tennis 
+                        </li>
+                        <li class="menu-list-item">
+                            Yoga
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h5>Kids</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            Airforce
+                       </li>
+                       <li class="menu-list-item">
+                            Jordan
+                        </li>
+                        <li class="menu-list-item">
+                            AirMax
+                        </li>
+                        <li class="menu-list-item">
+                            Slides & Sandals
+                        </li>
+                        <li class="menu-list-item">
+                            Hoodies & Sweatshirts
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h5>New & Featured</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            Bestsellers
+                       </li>
+                       <li class="menu-list-item">
+                            New Arrivals
+                        </li>
+                        <li class="menu-list-item">
+                            New & Upcoming Drops
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="categories-container">
+                <div class="category">
+                    <h5>Clothing</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            All Clothing
+                        </li>
+                        <li class="menu-list-item">
+                            Pants & Tights
+                        </li>
+                        <li class="menu-list-item">
+                            Tops & T-Shirts
+                        </li>
+                        <li class="menu-list-item">
+                            Basketball
+                        </li>
+                        <li class="menu-list-item">
+                            Running
+                        </li>
+                        <li class="menu-list-item">
+                            Underwear & More 
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h5>Shop Classics</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            Lifestyle
+                        </li>
+                        <li class="menu-list-item">
+                            Bras & Leggings
+                        </li>
+                        <li class="menu-list-item">
+                            Clothing
+                        </li>
+                        <li class="menu-list-item">
+                            Tennis 
+                        </li>
+                        <li class="menu-list-item">
+                            Yoga
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h5>Trending</h5>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            Airforce
+                       </li>
+                       <li class="menu-list-item">
+                            Jordan
+                        </li>
+                        <li class="menu-list-item">
+                            AirMax
+                        </li>
+                        <li class="menu-list-item">
+                            Slides & Sandals
+                        </li>
+                        <li class="menu-list-item">
+                            Hoodies & Sweatshirts
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+    </nav>
+    
+
+
+
+    <div class="container">
+    
+        <div class="main-content" id="mainContent" >
+            
+            
+            <!-- Hero section -->
+            <section class="hero-wrapper">
+                <div class="overlay">
+                    <h1>WHERE COMFORT <br>MEETS STYLE</h1>
+                    <p>
+                        Experience the perfect blend of comfort and style 
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+            </section>
+
+           
+            <!-- Thumbnails section -->
+            <section class="thumbnail-widget">
+                <div class="thumbnail">
+                    <img src="images/freeshipping-100x100.png" alt="">  
+                    <h6 class="thumbnail-title">Free Shipping</h6>                    
+                    <div class="thumbnail-description">
+                        <p>Get 10% cash back, free shipping, free returns, and more at 1000+ top retailers!</p>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img src="images/loyalty-customer-100x100.png" alt="">                      
+                    <h6 class="thumbnail-title">Customer Loyalty</h6>  
+                    <div class="thumbnail-description">
+                        <p>Card for the other 30% of their purchases at a rate of 1% cash back.</p>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img src="images/money-back.png" alt="">                      
+                    <h6 class="thumbnail-title">30 Days Money back</h6>  
+                    <div class="thumbnail-description">
+                        <p>100% satisfaction guaranteed, or get your money back within 30 days!</p>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <img src="images/safe-payment-100x100.png" alt="">                      
+                    <h6 class="thumbnail-title">Safe Payment</h6>  
+                    <div class="thumbnail-description">
+                        <p>Pay with the world’s most popular and secure payment methods.</p>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Men featured section -->
+            <section class="featured-container">
+                <div class="featured-content-media">
+                    <div class="featured-media">
+                        <img src="images/men/clothing/run-energy-mens-dri-fit-fleece-running-crew-M6VJGL.png" alt="">
+                    </div>
+                </div>
+                <div class="featured-products">
+                    <h2 class="featured-title">Men's Collection</h2>
+                    <a href="">Shop all products</a>
+                    <div class="featured-wrapper">
+                        <ul class="featured-product-list">
+
+                            <li class="featured-item">
+                                <img class="featured-item-img" src="images/men/boots/acg-gore-tex-mountain-fly-shoes-78bQ8Z.png" alt="Nike Low Billie Shoes">
+                                <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                            </li>
+
+                            <li class="featured-item">
+                                <img class="featured-item-img" src="images/men/tennis/tennis-bucket-hat-q3RVMb.png" alt="Nike Low Billie Shoes">
+                                <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                            
+                            </li>
+                            <li class="featured-item">
+                                <img class="featured-item-img" src="images/men/jordan/jordan-hydro-iii-mens-slides-z9rBnw.png" alt="Nike Low Billie Shoes">
+                                <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                                </div>
+                                <button class="product-add-btn">Add to Cart</button>
+                                <!--
+                                <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                                </button> 
+                            -->
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+        
+            </section>
+
+
+            <!-- Women featured section -->
+            <section class="featured-container">
+                
+                <div class="featured-products">
+                    <h2 class="featured-title">Women's Collection</h2>
+                    <a href="">Shop all products</a>
+                    <div class="featured-wrapper">
+                        <ul class="featured-product-list">
+
+                            <li class="featured-item">
+                                <img class="featured-item-img" src="images/women/shoe/asuna-3-next-nature-womens-slides-Tsj7hf.png" alt="Nike Low Billie Shoes">
+                                <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+
+                        <li class="featured-item">
+                            <img class="featured-item-img" src="images/women/leggings/one-womens-high-waisted-7-8-leggings-with-pockets-WD0r4J.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                            
+                        </li>
+                        <li class="featured-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                    </ul>
+
+                </div>
+                </div>
+                <div class="featured-content-media">
+                    <div class="featured-media">
+                        <img src="images/women/clothing/sportswear-phoenix-fleece-womens-oversized-crew-neck-sweatshirt-KQxbFk.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Products slider section -->
+            <section class="products-slider-section">
+                <div class="slider-wrapper">
+                    <h3 class="slider-title">New Arrivals</h3>
+                    <ul class="slider-products-list">
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                        <li class="slider-product-list-item">
+                            <img class="featured-item-img" src="images/women/shoe/air-jordan-1-low-method-of-make-womens-shoes-tq9cmG.png" alt="Nike Low Billie Shoes">
+                            <div class="featured-product-detail">
+                                <div class="product-detail-card">
+                                    <p class="product-name">
+                                            Nike Low Billie Shoes
+                                    </p>
+                                    <p class="product-info">
+                                            Men nike running T-shirt
+                                    </p>
+                                    <p class="product-size">XXL</p>
+                                    
+                                    <p class="product-price">$100</p>
+                                </div>
+                            </div>
+                            <button class="product-add-btn">Add to Cart</button>
+                            <!--
+                            <button class="product-fav-btn">Favorite<i class="fa-regular fa-heart nav-icons"></i>
+                            </button> 
+                            -->
+                        </li>
+                    </ul>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
